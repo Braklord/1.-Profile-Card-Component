@@ -9,8 +9,8 @@
     position: fixed;
     width: 978px;
     height: 976px;
-    left: -354.71px;
-    top: -469.84px;
+    left: -350px;
+    top: -500px;
     border-radius: 100%;
     background: linear-gradient(180deg, rgba(9, 137, 180, 0.0001) 0.78%, #53FFEE 99.94%);
     opacity: 0.5;
@@ -22,7 +22,7 @@
     position: fixed;
     width: 978px;
     height: 976px;
-    right: -340px;
+    right: -250px;
     bottom: -600px;
     border-radius: 100%;
     background: linear-gradient(180deg, rgba(9, 137, 180, 0.0001) 0.78%, #53FFEE 99.94%);
@@ -34,4 +34,45 @@ body {
     background-color: #19A1AE;
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 14px;
+}
+
+@media (max-width: 1199.98px) {
+    #circle-1 {
+        left: -300px;
+        top: -650px;
+    }
+    #circle-2 {
+        right: -400px;
+        bottom: -600px;
+    }       
+}
+@media (max-width: 991.98px) {
+    #circle-1 {
+        left: -500px;
+        top: -650px;
+    }
+    #circle-2 {
+        right: -540px;
+        bottom: -600px;
+    }      
+}
+@media (max-width: 767.98px) {
+    #circle-1 {
+        left: -600px;
+        top: -650px;
+    }
+    #circle-2 {
+        right: -640px;
+        bottom: -600px;
+    }    
+}
+@media (max-width: 575.98px) {
+    #circle-1 {
+        left: -700px;
+        top: -650px;
+    }
+    #circle-2 {
+        right: -740px;
+        bottom: -600px;
+    }
 }
