@@ -1,34 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
 
-body {
-    background: #19A1AE;
-    /* overflow: hidden; */
+* {
+    box-sizing: border-box;
+    margin: 0;
 }
 
 #circle-1 {
-    position: absolute;
+    position: fixed;
     width: 978px;
     height: 976px;
-    left: -294.71px;
-    top: -479.84px;
+    left: -354.71px;
+    top: -469.84px;
     border-radius: 100%;
-    
     background: linear-gradient(180deg, rgba(9, 137, 180, 0.0001) 0.78%, #53FFEE 99.94%);
-    mix-blend-mode: normal;
     opacity: 0.5;
-    transform: rotate(-135deg);    
+    transform: rotate(-135deg);  
+    z-index: 0;  
 }
 
 #circle-2 {
-    position: absolute;
+    position: fixed;
     width: 978px;
     height: 976px;
-    left: 780.29px;
-    top: 354.84px;
+    right: -340px;
+    bottom: -600px;
     border-radius: 100%;
-
     background: linear-gradient(180deg, rgba(9, 137, 180, 0.0001) 0.78%, #53FFEE 99.94%);
-    mix-blend-mode: normal;
     opacity: 0.25;
     transform: matrix(0.71, -0.71, -0.71, -0.71, 0, 0);
+}
+
+body {
+    background-color: #19A1AE;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 14px;
 }
