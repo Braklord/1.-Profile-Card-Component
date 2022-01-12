@@ -81,19 +81,23 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 59px;
+    /* for the older browsers fallback */
+    width: 33.33%; 
+    width: calc(100% / 3);
 }
 .card-component__meta_likes {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 47px;
+    width: 33.33%; 
+    width: calc(100% / 3);
 }
 .card-component__meta_photos {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 43px;
+    width: 33.33%; 
+    width: calc(100% / 3);
 }
 
 @media (max-width: 1199.98px) {
